@@ -1,0 +1,51 @@
+<?php /* #?ini charset="utf8"?
+
+[SiteSettings]
+# Defines the public URL that can deliver the DTD and XSLT to anonoumous clients
+#PublicURL=
+PublicURL=http://xrow.com
+
+[TranslationSettings]
+# ezlupdate
+TSBinaryPath=/usr/bin/ezlupdate
+#TSBinaryPath=C:\ezlupdater\ezlupdate.exe
+
+# Root node of all translators/users.
+TranslatorNode=5
+NeverDropObsolete=false
+# defines if the checkbox is preselected or not when you create a collection
+PreSelectionPublishWithoutEditorApproval=true
+# defines if https should be used inside the links of the mail notification - if set to false http will be used
+UseHTTPsFormNotificationMailLinks=false
+#Define the map that maps a Language towards a siteaccess
+LanguageSiteAccessMap[ger-DE]=ger
+LanguageSiteAccessMap[eng-US]=eng
+LanguageSiteAccessMap[eng-GB]=eng
+LanguageSiteAccessMap[ita-IT]=ita
+LanguageSiteAccessMap[jap-JP]=jap
+LanguageSiteAccessMap[heb-IL]=heb
+LanguageSiteAccessMap[fre-FR]=fre
+LanguageSiteAccessMap[esl-ES]=esl
+InterfaceStringLocale=eng-GB
+
+# Defines how your variables in you .ts are defined. They will get replaced with a noxl tag for disabling translation.
+TranslationFileVariableExpression[]
+TranslationFileVariableExpression[]=/(\%+)([a-zA-Z0-9_]+)(\%*)/i
+TranslationFileVariableReplacement[]
+TranslationFileVariableReplacement[]=<noxl start="${1}" name="${2}" end="$3">${2}</noxl>
+
+UntranslateableDatatypes[]
+UntranslateableDatatypes[]=ezboolean
+UntranslateableDatatypes[]=ezbinary
+UntranslateableDatatypes[]=ezdate
+UntranslateableDatatypes[]=ezdatetime
+UntranslateableDatatypes[]=ezsrrating
+UntranslateableDatatypes[]=ezauthor
+UntranslateableDatatypes[]=ezobjectrelation
+UntranslateableDatatypes[]=ezpage
+UntranslateableDatatypes[]=ezmedia
+# Defines an array of extensions that are not translateable 
+#
+#ExcludedExtensions[]=ezfind
+
+*/ ?>

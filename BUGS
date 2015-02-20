@@ -1,0 +1,3 @@
+Fixing <translated> tags in .ts files
+perl -pi -w -e 's/\s*<translated>.*<\/translated>\n//g;' -- `find * -name "*.ts"`
+

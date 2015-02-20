@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<software>
+    <metadata>
+        <name>eZ Publish Translation Management / SDL Trados Intregration</name>
+        <version>[EXTENSION_VERSION]</version>
+        <copyright>Copyright (C) 1999-2011 xrow GmbH. All rights reserved.</copyright>
+        <license>[EXTENSION_LICENSE]</license>
+		<info_url>http://www.xrow.com/Solutions/Translation-Manager</info_url>
+    </metadata>
+    <dependencies>
+        <requires>
+            <extension name="ezjscore" />
+        </requires>
+    </dependencies>
+</software>

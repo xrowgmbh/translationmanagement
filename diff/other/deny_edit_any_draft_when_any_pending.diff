@@ -1,0 +1,17 @@
+Index: edit.php
+===================================================================
+--- edit.php	(revision 14355)
++++ edit.php	(working copy)
+@@ -257,6 +257,12 @@
+             $userID = $user->id();
+             $version = eZContentObjectVersion::fetchUserDraft( $objectID, $userID );
+         }
++        include_once( 'extension/translationmanagement/classes/xrowtranslationmanagement.php' );
++        if ( xrowTranslationManagement::fetchLastPendingDraft( $objectID ) and $module->isCurrentAction( 'Publish' ) === false )
++        {
++                $module->redirectToView( "versions", array( $objectID ) );
++                return EZ_MODULE_HOOK_STATUS_CANCEL_RUN;
++        }
+ 
+         if ( $version )
+         {

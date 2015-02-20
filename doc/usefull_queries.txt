@@ -1,0 +1,12 @@
+# Change Language / Locale
+
+START TRANSACTION;
+SELECT @OLD:='ger-DE';
+SELECT @NEW:='ger';
+UPDATE ezcontentobject_name SET content_translation=@NEW, real_translation=@NEW 
+WHERE content_translation=@OLD AND real_translation=@OLD;
+UPDATE ezcontentobject_attribute SET language_code=@NEW
+WHERE language_code=@OLD;
+UPDATE ezcontent_language SET locale=@NEW
+WHERE locale=@OLD;
+COMMIT;

@@ -1,0 +1,54 @@
+Index: xrowtmpackage.php
+===================================================================
+--- xrowtmpackage.php	(revision 1770)
++++ xrowtmpackage.php	(working copy)
+@@ -1,10 +1,11 @@
+ <?php
++
+ /**
+-* @copyright Copyright (C) 1999-2011 xrow GmbH. All rights reserved.
+-* @license [EXTENSION_LICENSE]
+-* @version [EXTENSION_VERSION]
+-* @package translationmanagement
+-*/
++ * @copyright Copyright (C) 1999-2011 xrow GmbH. All rights reserved.
++ * @license [EXTENSION_LICENSE]
++ * @version [EXTENSION_VERSION]
++ * @package translationmanagement
++ */
+ class xrowTMPackage extends eZPackage
+ {
+ 
+@@ -30,6 +31,22 @@
+             return false;
+         }
+         $filepath = $this->Parameters['simple-file-list'][$fileKey]['original-path'];
++
++        if ( eZClusterFileHandler::instance( $filepath ) instanceof eZDFSFileHandler )
++        {
++            if ( eZINI::instance( 'file.ini' )->hasVariable( 'eZDFSClusteringSettings', 'MountPointPath' ) )
++            {
++                $mountPointPath = eZINI::instance( 'file.ini' )->variable( 'eZDFSClusteringSettings', 'MountPointPath' );
++                
++                if ( ! $mountPointPath = realpath( $mountPointPath ) )
++                    throw new eZDFSFileHandlerNFSMountPointNotFoundException( $mountPointPath );
++                
++                if ( substr( $mountPointPath, - 1 ) != '/' )
++                    $mountPointPath = "$mountPointPath/";
++                
++                $filepath = $mountPointPath . $filepath;
++            }
++        }
+         eZDebug::writeDebug( "Key: " . $fileKey . " File: " . $filepath, __METHOD__ );
+         return $filepath;
+     }
+@@ -43,7 +60,7 @@
+         eZDebug::writeDebug( "Key: " . $key . " File: " . $filepath, __METHOD__ );
+         
+         $this->Parameters['simple-file-list'][$key] = array( 
+-            'original-path' => $filepath
++            'original-path' => $filepath 
+         );
+     }
+ }
+\ No newline at end of file

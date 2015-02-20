@@ -1,0 +1,16 @@
+Index: kernel/content/edit.php
+===================================================================
+--- kernel/content/edit.php	(revision 23375)
++++ kernel/content/edit.php	(working copy)
+@@ -500,8 +500,9 @@
+     // Check if $user can edit the current version.
+     // We should not allow to edit content without creating a new version.
+     if ( ( $version->attribute( 'status' ) != eZContentObjectVersion::STATUS_INTERNAL_DRAFT and
+-           $version->attribute( 'status' ) != eZContentObjectVersion::STATUS_DRAFT )
+-          or $version->attribute( 'creator_id' ) != $user->id() )
++           $version->attribute( 'status' ) != eZContentObjectVersion::STATUS_DRAFT and
++           $version->attribute( 'status' ) != eZContentObjectVersion::STATUS_PENDING ) or
++           $version->attribute( 'creator_id' ) != $user->id() )    
+     {
+         return $Module->redirectToView( 'history', array( $ObjectID, $version->attribute( "version" ), $EditLanguage ) );
+     }

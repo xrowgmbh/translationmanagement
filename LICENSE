@@ -1,0 +1,257 @@
+
+eZ Proprietary Extension License (PEL), Version 1.3
+
+
+PLEASE READ THE TERMS AND CONDITIONS OF THIS EZ PROPRIETARY EXTENSION
+LICENSE CAREFULLY. BY EXERCISING ANY OF THE RIGHTS GRANTED BY THIS
+LICENSE, YOU ACCEPT THE TERMS AND CONDITIONS OF THIS LICENSE. IF YOU
+DO NOT AGREE TO ALL OF THE TERMS AND CONDITIONS OF THIS LICENSE, DO NOT
+EXERT ANY OF THE RIGHTS GRANTED BY THE LICENSE.
+
+
+This eZ Proprietary Extension License is made between eZ systems AS
+(or a subsidiary of eZ systems AS, as is identified on the Invoice)
+("eZ") and the customer identified on the Invoice ("You" or "Your"). The
+parties agree as follows:
+
+
+
+
+1. DEFINITIONS
+
+
+1.1 eZ Market Extension or eZ Services Network Extension: A software
+program that is based on our works.
+
+
+1.2 eZ Trademarks: Any and all trademarks that eZ systems AS owns or
+licenses, including, but not limited to, "eZ systems", "eZ publish"
+and the two square logo.
+
+
+1.3 Intellectual Property: All present and future copyrights, trademark
+rights, service mark rights, trade secret rights, patent rights, moral
+rights, and other intellectual property and proprietary rights recognized
+in any jurisdiction.
+
+
+1.4 Invoice: The invoice for this license that is attached to it (only
+for licences with costs).
+
+
+1.5 License: This entire agreement, including the Invoice.
+
+
+1.6 Licensed Materials: Any or all software, documentation or other work
+licensed under this License.
+
+
+1.7 Territory: Worldwide, unless otherwise specified on the Invoice.
+
+
+1.8 Other terms are defined throughout this License.
+
+
+
+
+2. TERM
+The License agreement comes into effect on the date of license
+grant stated on the Invoice or corresponding eZ Publish Enterprise
+subscription. The License terminates when any of the relevant conditions
+within this License are met.
+
+
+3. LICENSE GRANT
+Subject to the terms and conditions of this License, eZ grants You a
+limited, non-exclusive, non-transferrable and non-sublicensable license
+of this extension.
+
+
+4. EXCLUSIONS FROM LICENSE GRANT
+eZ reserves all rights not explicitly granted by this License. Except
+as specifically granted in this License, no rights are granted to any
+Intellectual Property owned by eZ or any third party supplier. Nothing
+in this License shall be interpreted to prohibit eZ from licensing
+any rights under terms and conditions that differ from the terms and
+conditions of this License.
+
+
+5. RESTRICTIONS
+Rights granted to You by this License may only be exercised by You in
+accordance with the terms and conditions of this License. You may not
+change, hide or remove any proprietary rights notices, including but not
+limited to notices of copyright, License and warranty, which appear in
+the Licensed Materials or the License.
+
+
+6. SUPPORT
+Except as expressly set Your eZ Publish support agreement, You are
+solely responsible for the entire installation, supervision, training,
+management, support, maintenance and control of the Licensed Materials and
+Your eZ Publish extensions, including all responsibility for installation
+and for maintenance of hardware and proper machine configuration.
+
+
+7. LICENSE FEES, PAYMENT AND TAXES
+You will pay eZ according to the terms set out in the Invoice. All
+payments must be made in a currency accepted by eZ. eZ reserves the
+right to not accept any order. You are responsible for paying all taxes,
+levies and duties payable in connection with this License, other than
+taxes based upon eZ's income. You may not exercise any of the rights
+granted in this License if You are delinquent in your payments.
+
+
+8. CONFIDENTIAL INFORMATION
+Neither party shall disclose confidential information to the other.
+
+
+9. TERMINATION
+eZ may terminate this License immediately if You breach any of the
+provisions of this License and such breach remains uncured 30 days after
+receipt of notice. In the event that You (a) fail to pay to eZ all fees
+relating to the Licensed Software when due, or (b) become liquidated,
+dissolved, bankrupt or insolvent, whether voluntarily or involuntarily,
+or shall take any action to be so declared, eZ shall have the right to
+terminate this License immediately.
+
+
+10. TERMINATION FOR PATENT ACTION
+This License shall terminate automatically and You may no longer
+exercise any of the rights granted to You by this License as of the
+date You commence an action, including a cross-claim or counterclaim,
+against eZ, any third party supplier or other licensee alleging that
+the Licensed Software infringes a patent.
+
+
+11. BINDING
+This License binds the parties, their respective successors and permitted
+assigns. There are no intended third party beneficiaries. Without the
+prior written consent of eZ, You shall not assign or otherwise transfer
+this License or Your rights or obligations under this License to any
+person or party, whether by operation of law or otherwise. Any attempt
+by You to do so shall be null and void and be deemed a material breach of
+this License. The parties are, and shall remain, independent contractors;
+nothing in this License is designed to create, nor shall create between
+them, a partnership, joint venture, agency, or employment relationship.
+
+
+12. INDEMNIFICATION
+You indemnify and agree to defend eZ against any and all damages,
+judgments and costs (including reasonable attorneys' fees) related to any
+claim based upon: (a) use of the Licensed Software in a manner prohibited
+under this License or in a manner for which the Licensed Software was not
+designed; (b) changes made by You to the Licensed Software (where use of
+unmodified Licensed Software would not infringe); or (c) changes made,
+or actions taken, by eZ upon Your direct instructions.
+
+
+13. DISCLAIMER OF WARRANTIES AND CONDITIONS
+The licensed software is provided to you "as is," without any
+representations, conditions or warranties whatsoever. eZ expressly
+disclaims, and you expressly waive, all conditions and warranties,
+whether express or implied, including warranties and conditions of
+merchantability, fitness for a particular purpose, non-infringement,
+system integration, non-interference and accuracy of informational
+content. eZ does not represent, warrant or provide any conditions that
+the service will meet your requirements or that the operation of the
+licensed software will be uninterrupted or error-free, or that errors
+will be corrected. The entire risk of the licensed software's quality and
+performance is with you. This disclaimer of warranties and conditions is
+an essential part of this license. No license is granted to you except
+under this disclaimer.
+
+
+14. LIMITATION OF LIABILITY AND REMEDIES
+To the extent permitted by applicable law, eZ shall have no liability
+with respect to its obligations under this agreement or otherwise for
+consequential, exemplary, special, indirect, incidental or punitive
+damages, including (without limitation) any lost profits or lost
+savings (whether resulting from impaired or lost data, software or
+computer failure or any other cause), even if it has been advised
+of, has reason to know or in fact knows of, the possibility of such
+damages. Notwithstanding any other provision in this agreement, to the
+extent permitted by applicable law, the liability of eZ for any reason
+and upon any cause of action shall be limited to the amount paid to eZ
+by you for this license. This limitation applies to all causes of action
+in the aggregate, including (without limitation) breach of contract,
+breach of condition and warranty, negligence, misrepresentations, torts
+and delicts, whether arising under statute or jurisprudence. To the extent
+permitted by applicable law, no action, regardless of form, arising out
+of this agreement may be brought by you more than one year after the
+cause of action has occurred. The parties agree that the disclaimers and
+limitations of liability and remedies herein (a) are separately intended
+to limit the forms and content of relief available to the parties and
+(b) reflect an informed, voluntary allocation between them of all risk
+(known and unknown) associated with the licensed software. The license
+fee is set in reliance upon this allocation of risk, and vice versa.
+
+
+15. DISPUTE RESOLUTION; GOVERNING LAW
+In the case of any dispute, controversy or claim arising under, out of
+or relating to this License and any subsequent amendments thereto,
+including, without limitation, its formation, validity, binding
+effect, interpretation, performance, breach or termination, as well
+as non-contractual claims ("Dispute"), parties shall first attempt
+to resolve the Dispute through good faith discussions. If a Dispute
+cannot be resolved amicably between the parties, such Dispute shall be
+referred to and finally determined by arbitration in accordance with
+the WIPO Expedited Arbitration Rules. The place of arbitration shall be
+Geneva, Switzerland. The language to be used in the arbitral proceedings
+shall be English. The dispute, controversy or claim shall be decided
+in accordance with the law of Norway, without regard to the conflict of
+laws provisions thereof. In no event shall the United Nations Convention
+on Contracts for the International Sale of Goods or any adopted version
+of the United States Uniform Computer Information Transactions Act apply
+to, or govern, this License. Notwithstanding the foregoing, eZ may seek
+injunctive or other equitable relief in any jurisdiction to protect its
+intellectual property rights. This section shall survive the termination
+of this License.
+
+
+16. NO WAIVER
+Failure by eZ to exercise any right or remedy does not signify acceptance
+of the event giving rise to such right or remedy.
+
+
+17. EXPORT LAW ASSURANCES
+You shall comply (at Your expense) with all relevant and applicable laws
+(including export and import regulations) related to use of the Licensed
+Software.
+
+
+18. ENGLISH LANGUAGE AGREEMENT
+The parties have agreed to execute this License in the English language,
+and the English language version of the License will control for all
+purposes.
+
+
+19. US GOVERNMENT RESTRICTED RIGHTS
+If the Licensed Software is being acquired by or on behalf of the
+U.S. Government or by a U.S. Government prime contractor or subcontractor
+(at any tier), in accordance with 48 C.F.R. 227.7202.-4 (for Department
+of Defense ("DOD") acquisitions) and 48 C.F.R. 2.101 and 13.212 (for
+non-DOD acquisitions), the government's rights in the Licensed Materials,
+including its rights to use, modify, reproduce, release, perform, display
+or disclose the Licensed Materials will be subject in all respects to
+the commercial rights and restrictions provided in this License.
+
+
+20. MISCELLANEOUS
+If any provision of this License is held by a court of competent
+jurisdiction to be unenforceable, such provision shall be reformed only
+to the extent necessary to make it enforceable. The captions or headings
+of the sections of this License are for reference only and are not to
+be construed in any way as part of this License.
+
+
+21. ENTIRE LICENSE
+This License comprises the entire agreement, and replaces and merges all
+prior proposals, understandings and agreements, oral and written, between
+the parties relating to the subject matter of this License. This License
+may be amended or modified only in a writing executed by both parties. To
+the extent of any conflict or inconsistency between this License and
+any Invoice or other document submitted by You to eZ, this License will
+control. eZ's acceptance of any document shall not be construed as an
+acceptance of provisions which are in any way in conflict or inconsistent
+with, or in addition to, this License, unless such terms are separately
+and specifically accepted in writing by an authorized officer of eZ.

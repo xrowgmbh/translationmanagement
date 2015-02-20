@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT TranslationManagement (ezobject:version)>
+<!ATTLIST TranslationManagement
+	xmlns:ezobject CDATA #REQUIRED
+	xmlns:ezremote CDATA #REQUIRED
+>
+<!ELEMENT anchor EMPTY>
+<!ATTLIST anchor
+	name CDATA #REQUIRED
+>
+<!ELEMENT custom (#PCDATA | section)* >
+<!ATTLIST custom
+	name CDATA #REQUIRED
+>
+<!ELEMENT data-int (#PCDATA) >
+<!ELEMENT data-float (#PCDATA) >
+<!ELEMENT data-text (#PCDATA) >
+<!ELEMENT date (#PCDATA) >
+<!ELEMENT embed EMPTY>
+<!ATTLIST embed
+	class CDATA #IMPLIED
+	object_id CDATA #REQUIRED
+	size CDATA #REQUIRED
+	align CDATA #REQUIRED
+	view CDATA #IMPLIED
+	custom:text CDATA #IMPLIED
+>
+<!ELEMENT emphasize (#PCDATA)>
+<!ELEMENT ezobject:attribute (text | section | value | menu-text | date | data-int | data-float | data-text | price | keyword-string )*>
+<!ATTLIST ezobject:attribute
+	ezremote:id CDATA #REQUIRED
+	ezremote:identifier CDATA #REQUIRED
+	name CDATA #REQUIRED
+	type CDATA #REQUIRED
+	image-file-key CDATA #IMPLIED
+	alternative-text CDATA #IMPLIED
+>
+<!ELEMENT ezobject:node-assignment-list EMPTY>
+<!ELEMENT ezobject:object-translation (ezobject:attribute+)>
+<!ATTLIST ezobject:object-translation
+	language CDATA #REQUIRED
+	object_name CDATA #REQUIRED
+	destination_language CDATA #REQUIRED
+>
+<!ELEMENT ezobject:version (ezobject:object-translation, ezobject:node-assignment-list)>
+<!ATTLIST ezobject:version
+	ezremote:version CDATA #REQUIRED
+	ezremote:status CDATA #REQUIRED
+	initial_language CDATA #REQUIRED
+	ezremote:object CDATA #REQUIRED
+	ezremote:created CDATA #REQUIRED
+	ezremote:modified CDATA #REQUIRED
+>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT keyword-string (#PCDATA) >
+<!ELEMENT li (paragraph?)>
+<!ELEMENT line (#PCDATA | strong | emphasize | custom | link)*>
+<!ELEMENT link (#PCDATA | strong | emphasize )*>
+<!ATTLIST link
+	href CDATA #IMPLIED
+	object_id CDATA #IMPLIED
+	target CDATA #IMPLIED
+>
+<!ELEMENT literal (#PCDATA)>
+<!ELEMENT menu-text (#PCDATA)>
+<!ELEMENT price (#PCDATA) >
+<!ELEMENT ol (li+)>
+<!ELEMENT paragraph (#PCDATA | custom | embed | table | line | link | strong | ol | ul | emphasize | anchor | literal)*>
+<!ELEMENT section (header | paragraph | section)*>
+<!ATTLIST section
+	xmlns:image CDATA #IMPLIED
+	xmlns:xhtml CDATA #IMPLIED
+	xmlns:custom CDATA #IMPLIED
+>
+<!ELEMENT strong (#PCDATA | link | emphasize | custom)*>
+<!ELEMENT table (tr+)>
+<!ATTLIST table
+	class CDATA #IMPLIED
+	width CDATA #IMPLIED
+	border CDATA #IMPLIED
+>
+<!ELEMENT td (paragraph*)>
+<!ATTLIST td
+	xhtml:width CDATA #IMPLIED
+>
+<!ELEMENT text (#PCDATA)>
+<!ELEMENT tr (td+)>
+<!ELEMENT ul (li+)>
+<!ELEMENT value (#PCDATA)>

@@ -1,0 +1,36 @@
+﻿/*
+    Translation manager / The Trados integration for eZ Publish
+    Copyright (C) 2005 - 2011 xrow GmbH, Hannover Germany
+*/
+
+Developed by
+Björn Dieding   ( bjoern [at] xrow [dot] de )
+
+Supported by
+Thilo Schüller
+Gerrit Imsieke
+
+Licening
+========
+Propetary, Copyright (C) 2005 - 2011 xrow GmbH, Hannover Germany
+A commercial licence can be aquired at service [at] xrow [dot] de.
+
+Installation
+============
+
+Read the installation.pdf in the docs folder.
+
+Troubleshooting & support
+=========================
+Send email to service [at] xrow [dot] de
+
+
+eZ Publish issues
+
+http://issues.ez.no/IssueView.php?Id=18220
+http://issues.ez.no/IssueView.php?Id=18221
+http://issues.ez.no/IssueView.php?Id=18222
+http://issues.ez.no/IssueView.php?Id=18268
+
+Also See Patches
+
