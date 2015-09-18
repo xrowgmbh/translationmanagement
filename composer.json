@@ -14,6 +14,6 @@
         "ezsystems/ezpublish-legacy-installer": "*"
     },
     "extra": {
-        "ezpublish-legacy-extension-name": "translationmanager"
+        "ezpublish-legacy-extension-name": "translationmanagement"
     }
 }
